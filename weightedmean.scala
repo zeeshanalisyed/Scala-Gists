@@ -25,7 +25,7 @@ object Calculator {
     def main(args: Array[String]) {
       val (x, y) = data_parser(System.in)
       val mean: Float = weightedMean(x, y)
-      print(mean)
+      print(f"$mean%1.1f")
     }
 }
 
